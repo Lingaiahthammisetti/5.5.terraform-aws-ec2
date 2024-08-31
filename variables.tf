@@ -6,7 +6,7 @@ variable "ami_id" {
 
 variable "security_group_ids" {
     type = list
-    default = ["sg-092ff5452a39fc34b"]
+    default = ["sg-0b8c28fdd8f99cc89"]
 }
 
 variable "instance_type" {
@@ -17,6 +17,6 @@ variable "instance_type" {
 variable "tags" {
     type = map
     default = { 
-          Name = "HelloWorld-db"
+          Name = "HelloWorld-ec2-instance"
     }
 }
