@@ -1,12 +1,12 @@
 
 variable "ami_id" {
     type = string
-    default = "ami-041e2ea9402c46c32"
+    default = "ami-09c813fb71547fc4f" 
 }
 
 variable "security_group_ids" {
     type = list
-    default = ["sg-0b8c28fdd8f99cc89"]
+    default = ["sg-06b1b57b365846051"]
 }
 
 variable "instance_type" {
@@ -17,6 +17,6 @@ variable "instance_type" {
 variable "tags" {
     type = map
     default = { 
-          Name = "HelloWorld-ec2-instance"
+          Name = "Module development code-ec2-instance"
     }
 }
